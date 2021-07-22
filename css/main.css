@@ -7,12 +7,14 @@ html {
     background-color: #eeeeee;
 }
 header {
+
     width: 100%;
     position: fixed;
-
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #eeeeee;
 
 }
 #header-img {
@@ -46,9 +48,7 @@ a {
     text-align: center;
 }
 
-.form-section input[type="submit"] {
 
-}
 .form-section input[id="email"] {
     margin-top: 10px;
     width: 250px;
@@ -57,7 +57,6 @@ a {
 
 }
 .f_section {
-
     display: flex;
     width: 50%;
     margin: 50px auto;
@@ -70,8 +69,9 @@ a {
     width: 50px;
 }
 
-.desk h2, .desk p {
+.desk {
     margin: 0;
+    text-align: left;
 }
 section {
         text-align: center;
@@ -120,6 +120,29 @@ section {
     color: black;
     font-size: 18px;
     text-align-all: center;
+}
+footer {
+    margin: 20px auto;
+    width: 65%;
+    background-color: #bdb9bb;
+    padding: 30px;
+}
+
+footer > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+footer li {
+    padding-right: 10px;
+}
+footer > span {
+    margin-top: 7px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #444;
 }
 
 

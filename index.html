@@ -11,16 +11,16 @@
 </head>
 <body>
 <div class="container">
-    <header class="header">
+    <header class="header" id="header">
         <div class="logo">
             <img src="img/product-landing-page-logo.png" alt="product landing logo" id="header-img">
         </div>
 
         <nav id="nav-bar">
             <ul>
-                <li class="nav-lik"><a href="#features">Features</a></li>
-                <li class="nav-lik"><a href="#how_work">How it Work</a></li>
-                <li class="nav-lik"><a href="#pricing">Pricing</a></li>
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#how-it-works">How it Work</a></li>
+                <li class="nav-link"><a href="#pricing">Pricing</a></li>
             </ul>
 
         </nav>
@@ -29,9 +29,10 @@
     <div class="form-section">
         <div><h2>Handcrafted, home-made masterpieces</h2></div>
 
-        <form id="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
             <div class="form_input">
-                <label for="email"></label><input type="email" id="email" name="email" placeholder="Enter your Email address" required></div>
+                <label for="email"></label><input type="email" id="email" name="email"
+                                                  placeholder="Enter your Email address" required></div>
             <div class="form_input">
                 <input id="submit" type="submit" value="Get Started" class="btn">
 
@@ -39,7 +40,7 @@
         </form>
     </div>
 
-    <div id="features">
+    <section id="features">
         <div class="f_section">
             <div class="icon">
                 <img src="img/fire.png" alt="">
@@ -72,15 +73,16 @@
                    the pitch of your instrument.</p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <section id="how_work" >
-        <iframe   id="video"  width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
-                title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    <section id="how-it-works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                title="YouTube video player" frameborder=0
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
     </section>
 
-    <div id="pricing">
+    <section id="pricing">
         <div class="product">
             <div class="name_product"><h2>TENOR TROMBONE</h2></div>
             <h2>$600</h2>
@@ -119,10 +121,15 @@
             <div class="btn">SELECT</div>
         </div>
 
-    </div>
+    </section>
 
     <footer>
-
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
     </footer>
 
 
