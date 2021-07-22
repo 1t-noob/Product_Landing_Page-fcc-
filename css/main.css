@@ -76,7 +76,9 @@ a {
 .desk h2, .desk p {
     margin: 0;
 }
-
+section {
+        text-align: center;
+}
 
 
 
